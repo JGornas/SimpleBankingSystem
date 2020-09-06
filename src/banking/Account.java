@@ -13,7 +13,7 @@ public class Account {
         this.loggedIn = false;
     }
 
-    public int getBalance() {
+    int getBalance() {
         return balance;
     }
 
@@ -27,6 +27,7 @@ public class Account {
     void logout() {
         loggedIn = false;
     }
+
     boolean isLoggedIn() {
         return this.loggedIn;
     }
